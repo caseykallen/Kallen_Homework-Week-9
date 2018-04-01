@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Miami, FL.</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- Our Code Starts Here -->
+  <!--Title Miami-->
+  <div class="container content-box">
+    <div class="row">
+      <div class="col">
+        <div class="miami">
+          <h1>Miami, Florida</h1>
+        </div>
+      </div>
+    </div>
+    <!--End top bar-->
+    <!--Start bio description-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="description">
+            <br>
+            <p><em>December 7th, 1993. The sun was in Sagittarius, the moon was in Virgo, and Capricorn was on the horizon line. At 8:43 in the morning, Randy and Cork Kallen welcomed their baby girl in an apartment building on Collins Avenue in Miami, Florida, overlooking the bay. After 36 hours of labor, Casey Emmis Kallen came into the world, ready to raise hell.</em></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End bio description-->
+<!--Start Google Map API-->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div id="map"></div>
+      <script>
+        function initMap() {
+          var miami = {lat: 25.9529929, lng: -80.1300479};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: miami
+          });
+          var marker = new google.maps.Marker({
+            position: miami,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuNCqqkYnCZUx8KpR9RMTpBjLz2hXfsOA&callback=initMap">
+      </script>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <!-- Our Code Ends Here -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>

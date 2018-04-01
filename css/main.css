@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Roboto");
+/* line 17, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+.content-box {
+  background-color: rgba(237, 241, 241, 0.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 26, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+h1 {
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  color: #27fdf5;
+}
+
+/* line 32, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+.miami {
+  padding: 20px;
+}
+
+/* line 36, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+.bio {
+  margin-top: 20px;
+}
+
+/* line 40, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+p {
+  font-family: "Roboto", Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* line 46, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 52, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-27-18/Homework Starter/Kallen_Homework Week 9/css/_scss/main.scss */
+body {
+  background-image: url("../images/miamisunset.jpg");
+  color: white;
+}
+
+/*# sourceMappingURL=../main.map */

@@ -1,0 +1,55 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto');
+// Your CSS/SCSS below this line
+
+$debug: false; // Debug mode boolean
+
+* {
+  @if ($debug) {
+    border: 1px solid red;
+  }
+}
+
+
+.content-box {
+  background-color: $softwhite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h1 {
+  font-family: $font_0, $font_1;
+  text-align: center;
+  color: $teal;
+}
+
+.miami {
+  padding: 20px;
+}
+
+.bio {
+  margin-top: 20px;
+}
+
+p{
+  font-family: $font_2, $font_3, $font_4;
+  text-align: center;
+
+}
+
+#map {
+  height: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+}
+
+body {
+  background-image: url("../images/miamisunset.jpg");
+  color: $white;
+}

@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "_scss/main.css",
+	"sources": [
+		"_scss/main.scss",
+		"_scss/_colors.scss",
+		"_scss/_fonts.scss",
+		"_scss/_urls.scss",
+		"_scss/_mixins.scss"
+	],
+	"sourcesContent": [
+		"@import '_colors.scss';\n@import '_fonts.scss';\n@import '_urls.scss';\n@import '_mixins.scss';\n@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto');\n// Your CSS/SCSS below this line\n\n$debug: false; // Debug mode boolean\n\n* {\n  @if ($debug) {\n    border: 1px solid red;\n  }\n}\n\n\n.content-box {\n  background-color: $softwhite;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n\nh1 {\n  font-family: $font_0, $font_1;\n  text-align: center;\n  color: $teal;\n}\n\n.miami {\n  padding: 20px;\n}\n\n.bio {\n  margin-top: 20px;\n}\n\np{\n  font-family: $font_2, $font_3, $font_4;\n  text-align: center;\n\n}\n\n#map {\n  height: 400px;\n        width: 100%;\n        margin-bottom: 30px;\n}\n\nbody {\n  background-image: url(\"../images/miamisunset.jpg\");\n  color: $white;\n}\n",
+		"// Color Variables\n$teal: #27fdf5;\n$softwhite: rgba(237, 241, 241, .5);\n$white: white;\n",
+		"// Font Variables\n$font_0: 'Poiret One';\n$font_1: cursive;\n$font_2: 'Roboto';\n$font_3: Helvetica;\n$font_4: sans-serif;\n",
+		"// URL Variables\n",
+		""
+	],
+	"mappings": "AAIA,OAAO,CAAC,gEAAI;;AAYZ,AAAA,YAAY,CAAC;EACX,gBAAgB,ECfN,wBAAI;EDgBd,QAAQ,EAAE,KAAM;EAChB,GAAG,EAAE,GAAI;EACT,IAAI,EAAE,GAAI;EACV,SAAS,EAAE,qBAAS;CACrB;;;AAGD,AAAA,EAAE,CAAC;EACD,WAAW,EEzBJ,YAAY,EACZ,OAAO;EFyBd,UAAU,EAAE,MAAO;EACnB,KAAK,EC3BA,OAAO;CD4Bb;;;AAED,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAK;CACf;;;AAED,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAK;CAClB;;;AAED,AAAA,CAAC,CAAA;EACC,WAAW,EErCJ,QAAQ,EACR,SAAS,EACT,UAAU;EFoCjB,UAAU,EAAE,MAAO;CAEpB;;;AAED,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,KAAM;EACR,KAAK,EAAE,IAAK;EACZ,aAAa,EAAE,IAAK;CAC3B;;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,gCAAG;EACrB,KAAK,EClDC,KAAK;CDmDZ",
+	"names": []
+}
